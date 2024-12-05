@@ -43,3 +43,36 @@ print(f"The sentence has {len(input_str)} words.")
 sentence = input("Enter a sentence: ")
 word_count = len(sentence.split())
 print(f"The sentence has {word_count} words.")
+
+
+# Ask the user for a number and print its multiplication table up to 10.
+number = int(input("Enter the number: "))
+
+for i in range(1,11):
+    print(f"{number} x {i} = {number * i}")
+
+
+# Ask the user for two numbers and an operation (add, subtract, multiply, divide). Perform the operation and display the result.
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+operation = input("Enter the operation (add, subtract, multiply, divide): ").lower()
+
+# Perform the calculation based on the operation
+if operation == "add":
+    result = num1 + num2
+    print(f"The result is {result}.")
+elif operation == "subtract":
+    result = num1 - num2
+    print(f"The result is {result}.")
+elif operation == "multiply":
+    result = num1 * num2
+    print(f"The result is {result}.")
+elif operation == "divide":
+    if num2 != 0:
+        result = num1 / num2
+        print(f"The result is {result}.")
+    else:
+        print("Error: Division by zero is not allowed.")
+else:
+    print("Invalid operation. Please choose from add, subtract, multiply, or divide.")
