@@ -69,7 +69,7 @@ matrix[2][2] = 0
 #updated_list1 = updated_list.append(1)
 print(f"Updated list : {matrix}")
 
-
+#Indexing with Loops
 # Write a loop to print all elements in animals = ["cat", "dog", "rabbit", "hamster"] along with their index.
 
 animals = ["cat", "dog", "rabbit", "hamster"]
@@ -93,4 +93,21 @@ for index in range(len(list_numbers)):
     if index % 2 == 0:
         print(list_numbers[index])
 
+# Combination of Access and Conditions
 
+'''
+Given the list data = [5, 10, 15, 20, 25, 30]:
+- Print all elements greater than 15.
+- Print the indices of elements that are divisible by 10
+'''
+data = [5, 10, 15, 20, 25, 30]
+
+print(f"The elements in the list greater than 15: ")
+for num in data:
+    if num > 15:
+        print(num)
+
+print(f"The indices of elements that are divisible by 10: ")
+for index in range(len(data)):
+    if data[index] % 10 == 0:
+            print(index)
