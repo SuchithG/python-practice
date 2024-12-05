@@ -70,3 +70,27 @@ matrix[2][2] = 0
 print(f"Updated list : {matrix}")
 
 
+# Write a loop to print all elements in animals = ["cat", "dog", "rabbit", "hamster"] along with their index.
+
+animals = ["cat", "dog", "rabbit", "hamster"]
+
+for i in range(0,4):
+    print(f"The animal: {animals[i]}, is in the index: {i}")
+
+'''
+Create a list numbers = [10, 20, 30, 40, 50]. Use a loop to print:
+
+- The square of each element.
+- Only the elements at even indices.
+'''
+
+list_numbers = [10, 20, 30, 40, 50]
+
+for i in list_numbers:
+    print(f"The square of number{i} is: {i*i}")
+
+for index in range(len(list_numbers)):
+    if index % 2 == 0:
+        print(list_numbers[index])
+
+
