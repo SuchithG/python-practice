@@ -25,7 +25,7 @@ print("apple" in fruits) # Output: True
 # Tuple Methods
 
 my_tuple = (1, 2, 3, 1, 1)
-print(my_tuple.count(1))  # Output: 1
+print(my_tuple.count(1))  # Output: 3
 
 my_tuple1 = ("apple", "banana", "cherry")
-print(my_tuple1.index("cherry"))
+print(my_tuple1.index("cherry")) # Output: 1
