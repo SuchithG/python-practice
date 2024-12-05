@@ -49,6 +49,24 @@ reversed_list = list_letters[::-1]
 #list_letters.reverse()
 print(f"Reversed list id: {reversed_list}")
 
+# Modifying and Accessing Nested Lists
+'''
+Given the nested list matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]:
+Access the element 5.
+Print the second row ([4, 5, 6]).
+Replace the element 9 with 0 and print the updated list.
+'''
 
+matrix = [
+            [1, 2, 3], 
+            [4, 5, 6], 
+            [7, 8, 9]
+        ]
+
+print(matrix[1][1])
+print(matrix[1])
+matrix[2][2] = 0
+#updated_list1 = updated_list.append(1)
+print(f"Updated list : {matrix}")
 
 
