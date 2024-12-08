@@ -50,7 +50,7 @@ Otherwise, they get a regular membership.
 
 age = int(input("Enter your age in years: "))
 
-if 0<= age <= 65:
+if 0 <= age <= 65:
     if age <= 18:
         print("Congratulations! You are eligible for a student membership")
     elif age >= 60:
