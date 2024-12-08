@@ -10,8 +10,11 @@ my_dict = {
 my_dict1 = {
     "key1": "value1", # Key value pairs
     "key2": "value2",
-    "key3": "value3"
+    "key3": "value3",
+    123: 123
 }
+
+print(my_dict1)
 
 # using the dict() function
 new_dict = dict(Suchith="Male", Shashank="Male")
@@ -50,3 +53,18 @@ print(f"Removed from dict: {my_dict}")
 # Removing using clear
 my_dict1.clear()
 
+
+# Dictionary Methods
+# Keys
+print(new_dict.keys())
+
+# Value
+print(new_dict.values())
+
+# items
+print(new_dict.items())
+
+# Update 
+updated_dict = {"suchitha":"Female"}
+new_dict.update(updated_dict)
+print(f"The updated new_dict is: {new_dict}")
