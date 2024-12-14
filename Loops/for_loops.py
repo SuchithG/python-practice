@@ -38,5 +38,18 @@ for city in cities:
         continue
 print(city)
 
+# Using "continue" in a for loop
+# Let’s skip "Hubballi" while looping through the cities:
 
+for city in cities:
+    if city == "Hubballi":
+        continue
+    print(city)
+
+# Looping through the list with enumerate
+#Displaying the index and value of each city
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+
+for index, city in enumerate(cities):
+    print(f"City {index+1}: {city}") 
 
