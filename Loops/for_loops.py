@@ -26,3 +26,14 @@ for i in range(1, 6):
     for j in range(1, 6):
         print(f"{i} x {j} = {i * j}")
     print()
+
+# Using break in for loop
+cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
+for city in cities:
+    if city == "Hubballi":
+        print(f"found {city}!")
+        break
+    else:
+        continue
+print(city)
+
