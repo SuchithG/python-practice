@@ -71,3 +71,15 @@ d = {
 
 for Key, value in d.items():
     print(Key, " ", value) 
+
+# Imagine you have 5 laddus to distribute among friends. You can use a for loop to give each friend one laddu.
+
+laddus = 5
+friends = ["Rahul", "Sneha", "Aman", "Priya"]
+
+for i in friends:
+    if laddus > 0:
+        print(f"{i} gets a laddu!")
+        laddus -= 1
+    else:
+        print("No laddus left!")
