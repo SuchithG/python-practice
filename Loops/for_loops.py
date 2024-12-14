@@ -28,6 +28,7 @@ for i in range(1, 6):
     print()
 
 # Using break in for loop
+# Stop the loop when you find a specific item
 cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
 for city in cities:
     if city == "Hubballi":
@@ -36,4 +37,6 @@ for city in cities:
     else:
         continue
 print(city)
+
+
 
