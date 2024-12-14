@@ -60,3 +60,14 @@ for index, city in enumerate(cities):
     print(city)
 else:
     print("No more cities!")
+
+# Using for loop in a dictionary
+
+d = {
+        "Name": "Hubballi",
+        "Age": 28,
+        "Income": 0
+    }
+
+for Key, value in d.items():
+    print(Key, " ", value) 
