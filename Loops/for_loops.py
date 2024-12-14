@@ -53,3 +53,10 @@ cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
 for index, city in enumerate(cities):
     print(f"City {index+1}: {city}") 
 
+
+# using else with for loop
+
+for index, city in enumerate(cities):
+    print(city)
+else:
+    print("No more cities!")
