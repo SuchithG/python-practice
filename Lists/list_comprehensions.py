@@ -14,3 +14,5 @@ print(even_numbers)
 cities = ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru"]
 uppercase_cities = [c.upper() for c in cities]
 print(uppercase_cities)
+
+
