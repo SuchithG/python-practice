@@ -47,3 +47,16 @@ student_marks = {"Anand": 85, "Geetha": 90, "Kumar": 78}
 for student, marks in student_marks.items():
     print(f"{student} scored {marks} marks")
 
+# for loops with range
+
+# eg: Adding marks to students using index values
+
+students = ["Anand", "Geetha", "Kumar"]
+marks = [85, 90, 78]
+
+student_marks = {}
+
+for i in range(len(students)):
+    student_marks[students[i]] = marks[i]
+
+print(student_marks)
