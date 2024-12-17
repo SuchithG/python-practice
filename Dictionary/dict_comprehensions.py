@@ -11,3 +11,15 @@ print(squares)
 names = ['adam', 'biran', 'casper']
 d = {name:len(name) for name in names}
 print(d)
+
+#Filtering cities with population above 10 lakhs (Localized Example)
+
+city_population = {
+    "Bengaluru": 84,
+    "Mysuru": 11,
+    "Hubballi": 9,
+    "Mangaluru": 5
+}
+
+large_cities = {city: population for city, population in city_population.items() if population > 10}
+print(large_cities)
