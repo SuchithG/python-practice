@@ -7,7 +7,7 @@ numbers = [1, 2, 3, 4, 5]
 squares = {num: num*num for num in numbers}
 print(squares)
 
-# eg: 2
+# eg: Converting a list of names to a dictionary of name lengths
 names = ['adam', 'biran', 'casper']
 d = {name:len(name) for name in names}
 print(d)
