@@ -19,3 +19,18 @@ matrix = [
 print(matrix[0][0])
 print(matrix[1][1])
 print(matrix[2][2])
+
+
+# Splitting Strings to Create Lists
+#Splitting a sentence into words
+
+sentence = "I love coding in Python"
+words = sentence.split()
+print(words)
+
+#Splitting a string with commas
+data = "apple,banana,mango"
+fruits = data.split(",")
+print(fruits)
+
+
