@@ -29,3 +29,29 @@ print(sum_prices)
 
 squares = [ num**2 for num in range(1, 11)]
 print(squares)
+
+
+#Student Data Task:
+#Create a list of 3 dictionaries, where each dictionary contains the name, age, and marks of a student. 
+# Loop through the list and print each student's information.
+
+students = [
+    {
+        "name": "student_1",
+        "age": 23,
+        "marks": 25
+    },
+    {
+        "name": "student_2",
+        "age": 24,
+        "marks": 27
+    },
+    {
+        "name": "student_3",
+        "age": 25,
+        "marks": 30
+    },
+]
+
+for student in students:
+    print(f"Name: {student['name']}, Age: {student['age']}, Marks: {student['marks']}")
