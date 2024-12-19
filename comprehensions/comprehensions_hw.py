@@ -55,3 +55,34 @@ students = [
 
 for student in students:
     print(f"Name: {student['name']}, Age: {student['age']}, Marks: {student['marks']}")
+
+#Dictionary Comprehension:
+
+# Create a dictionary where the keys are Kannada cities, and the values are their populations. 
+# Use dictionary comprehension to filter out cities with populations below 10 lakhs.
+
+city_population = {
+    "Bengaluru": 84,
+    "Mysuru": 11,
+    "Hubballi": 9,
+    "Mangaluru": 5
+}
+
+small_cities = {city:population for city, population in city_population.items() if population >= 10}
+print(small_cities)
+
+'''
+Nested List Challenge: Write a Python program that takes a list of lists (a 2D list) as input and:
+
+- Prints the entire matrix row by row.
+- Prints the sum of each row in the matrix.
+'''
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+for i,j in enumerate(matrix):
+    print(f"{i}.The sum of the list {j} is : {sum(j)}")
