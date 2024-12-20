@@ -41,3 +41,13 @@ def tables(num=4): # Default parameters values
 
 
 tables()
+
+
+# Returning Values from a Function
+# Function that adds two numbers and returns the result
+
+def add_numbers(a, b):
+     return a + b
+
+result = add_numbers(2, 3)
+print("The sum is", result)
