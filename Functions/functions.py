@@ -25,11 +25,19 @@ marriage("John", "Selina") #positional parameters
 
 marriage(boy="Johnny", girl="clay") #keyword parameters
 
+# Default Parameter Values
+# Function with a default parameter
+# Ex: 1
+def greet(name="Student"):
+    print(f"Hello, {name}! Welcome to the Python course.")
+
+greet()  # Uses default value "Student"
+greet("Geetha")  # Uses passed value "Geetha"
 
 # Ex: 2
-def tables(num):
+def tables(num=4): # Default parameters values
     for i in range(1,11):
             print(f"{num} X {i} = {num*i}")
 
 
-tables(1)
+tables()
