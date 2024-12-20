@@ -51,3 +51,17 @@ def add_numbers(a, b):
 
 result = add_numbers(2, 3)
 print("The sum is", result)
+
+
+# Local and Global Variables
+# Local Variables are defined inside a function and are only accessible within that function.
+# Global Variables are defined outside all functions and are accessible from anywhere in the code.
+
+name = "Global Name"
+
+def greet():
+    name = "Local Name"
+    print(name)
+
+greet()  # Prints local variable
+print(name)  # Prints global variable
