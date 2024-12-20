@@ -10,6 +10,12 @@ def greet():
      print("Hello users!")
 greet()
 
+# Function Parameters
+# Function with a parameter
+def greet_user(name):
+    print(f"Hello, {name}! Welcome to the Python course.")
+
+greet_user("Anand")
 
 # Ex: 1    
 def marriage(boy, girl): #parameters
