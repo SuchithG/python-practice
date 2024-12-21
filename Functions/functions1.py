@@ -60,4 +60,19 @@ def factorial(n):
         return n * factorial(n - 1)
     
 print(factorial(5))
+
+# Nested Functions:
+'''
+A nested function is a function defined inside another function. 
+The inner function is only accessible within the outer function, allowing for more modular and controlled code execution.
+'''
+# Example:
+
+def outer_function(name):
+    def inner_function():
+        print(f"Hello, {name}!")
+    inner_function()
+
+outer_function("Anand")
+
         
