@@ -23,4 +23,14 @@ def tot_sum(*numbers):
         return result
     
 print(total_sum(8, 9, 10))
+
+# Using **kwargs
+# Example: 
+def student_info(**details):
+    for key, value in details.items():
+        print(f"{key}: {value}")
+
+student_info(name="Anand", age=22, course="Python")
+
+
         
