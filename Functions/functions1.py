@@ -14,3 +14,13 @@ def total_sum(*numbers):
     return sum(numbers)
 
 print(total_sum(1, 2, 3, 4, 5))
+
+# Example2: 
+def tot_sum(*numbers):
+    result = 0
+    for num in numbers:
+        result += num
+        return result
+    
+print(total_sum(8, 9, 10))
+        
