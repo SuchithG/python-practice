@@ -32,5 +32,10 @@ def student_info(**details):
 
 student_info(name="Anand", age=22, course="Python")
 
+# Lambda Functions
+# Syntax: lambda arguments: expression
+
+double = lambda x: x * 2
+print(double(5))
 
         
