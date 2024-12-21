@@ -38,4 +38,14 @@ student_info(name="Anand", age=22, course="Python")
 double = lambda x: x * 2
 print(double(5))
 
+# Example2:
+
+students = [
+    {'name': 'Student1', 'marks': 30},
+    {'name': 'Student2', 'marks': 90},
+    {'name': 'Student3', 'marks': 70}
+]
+
+students.sort(key= lambda x: x["marks"], reverse=True)
+print(students)
         
