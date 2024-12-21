@@ -48,4 +48,16 @@ students = [
 
 students.sort(key= lambda x: x["marks"], reverse=True)
 print(students)
+
+# Recursion
+# Recursion occurs when a function calls itself. It's used to solve problems that can be broken down into smaller, similar problems.
+# Example: Recursive function to calculate factorial
+
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+    
+print(factorial(5))
         
