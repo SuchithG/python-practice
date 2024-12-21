@@ -20,3 +20,24 @@ print(result)
 div = lambda x,y: "Divison by zero is not allowed" if y==0 else x // y
 print((div(10,2)))
 print((div(10,0)))
+
+# String Manipulation
+# Example 1: Create a lambda function that takes a string and returns its uppercase version.
+s = str(input("Enter a work or a string: "))
+upp_str = lambda s: s.upper()
+print(upp_str(s))
+
+# Example 2: Write a lambda function that checks if a string is a palindrome
+is_palindrome = lambda s: s == s[::-1]
+input_string = input("Enter a word: ").upper().strip()
+if is_palindrome(input_string):
+    print("The string is a palindrome")
+else:
+    print("The string is not a palindrome")
+
+# Example 3: Create a lambda function that returns the length of a string
+
+v = str(input("Enter the string"))
+
+len_v = lambda v: len(v)
+print(len_v(v))
