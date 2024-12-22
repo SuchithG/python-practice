@@ -47,7 +47,11 @@ print(len_v(v))
 # Working with Lists
 # Example 1: Write a lambda function to square all elements in a list using map().
 
-numbers = [1, 2 , 3, 4 , 5]
-
-square = list(map(lambda x: x**2, numbers))
+square = list(map(lambda x: x**2, range(1, 6)))
 print(square)
+
+# Example 2: Create a lambda function to filter out all even numbers from a list using filter().
+
+even_numbers = list(filter(lambda x: x % 2 == 0, range(1, 6)))
+print(even_numbers)
+
