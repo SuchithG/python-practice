@@ -1,3 +1,4 @@
+'''
 # Lambda Function: 
 # Example: Write a lambda function that multiplies two numbers.
 
@@ -41,3 +42,12 @@ v = str(input("Enter the string"))
 
 len_v = lambda v: len(v)
 print(len_v(v))
+'''
+
+# Working with Lists
+# Example 1: Write a lambda function to square all elements in a list using map().
+
+numbers = [1, 2 , 3, 4 , 5]
+
+square = list(map(lambda x: x**2, numbers))
+print(square)
