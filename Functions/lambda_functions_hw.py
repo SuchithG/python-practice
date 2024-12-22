@@ -46,12 +46,14 @@ print(len_v(v))
 
 # Working with Lists
 # Example 1: Write a lambda function to square all elements in a list using map().
-
 square = list(map(lambda x: x**2, range(1, 6)))
 print(square)
 
 # Example 2: Create a lambda function to filter out all even numbers from a list using filter().
-
 even_numbers = list(filter(lambda x: x % 2 == 0, range(1, 6)))
 print(even_numbers)
 
+# Example 3: Use a lambda function to sort a list of tuples based on the second element of each tuple
+a = [(1, 'cherry'), (2, 'apple'), (3, 'banana'), ]
+sorted_list = sorted(a, key=lambda x: x[0])
+print(sorted_list)
