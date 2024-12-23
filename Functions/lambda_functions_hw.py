@@ -18,7 +18,7 @@ result = abs(sub(9,10))
 print(result)
 
 # Example 3: Write a lambda function to divide one number by another and handle division by zero
-div = lambda x,y: "Divison by zero is not allowed" if y==0 else x // y
+div = lambda x,y: "Division by zero is not allowed" if y==0 else x // y
 print((div(10,2)))
 print((div(10,0)))
 
@@ -65,3 +65,9 @@ x = int(input("Enter a number: "))
 
 num_check = "positive" if x>0 else "negative" if x<0 else "zero"
 print(num_check)
+
+# Example 2:
+# Write a lambda function to check if a number is divisible by both 3 and 5
+n = int(input("Enter a number to check if it's divisible by 3 and 5: "))
+check = "The number is divisible by 3 and 5" if n % 3 == 0 and n % 5 == 0 else "The number is not divisible by 3 and 5"
+print(check)
