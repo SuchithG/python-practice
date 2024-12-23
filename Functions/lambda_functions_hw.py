@@ -76,4 +76,6 @@ print(check)
 year = int(input("Enter a year in 4 digits: "))
 
 leap_year = lambda year: year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
-print(leap_year)
+print(leap_year(2024)) # True
+print(leap_year(1900)) # False
+print(leap_year(2000)) # True
