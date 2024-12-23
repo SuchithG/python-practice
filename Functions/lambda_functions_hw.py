@@ -1,4 +1,3 @@
-'''
 # Lambda Function: 
 # Example: Write a lambda function that multiplies two numbers.
 
@@ -57,7 +56,7 @@ print(even_numbers)
 a = [(1, 'cherry'), (2, 'apple'), (3, 'banana'), ]
 sorted_list = sorted(a, key=lambda x: x[0])
 print(sorted_list)
-'''
+
 
 # Boolean Logic
 # Example 1: Write a lambda function to check if a number is positive, negative, or zero.
