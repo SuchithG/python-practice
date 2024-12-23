@@ -71,3 +71,10 @@ print(num_check)
 n = int(input("Enter a number to check if it's divisible by 3 and 5: "))
 check = "The number is divisible by 3 and 5" if n % 3 == 0 and n % 5 == 0 else "The number is not divisible by 3 and 5"
 print(check)
+
+# Example 3:
+# Create a lambda function that returns True if a given year is a leap year and False otherwise
+year = int(input("Enter a year in 4 digits: "))
+
+leap_year = lambda year: year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+print(leap_year)
