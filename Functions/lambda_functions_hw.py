@@ -1,3 +1,4 @@
+'''
 # Lambda Function: 
 # Example: Write a lambda function that multiplies two numbers.
 
@@ -42,6 +43,7 @@ v = str(input("Enter the string"))
 len_v = lambda v: len(v)
 print(len_v(v))
 
+
 # Working with Lists
 # Example 1: Write a lambda function to square all elements in a list using map().
 square = list(map(lambda x: x**2, range(1, 6)))
@@ -55,3 +57,11 @@ print(even_numbers)
 a = [(1, 'cherry'), (2, 'apple'), (3, 'banana'), ]
 sorted_list = sorted(a, key=lambda x: x[0])
 print(sorted_list)
+'''
+
+# Boolean Logic
+# Example 1: Write a lambda function to check if a number is positive, negative, or zero.
+x = int(input("Enter a number: "))
+
+num_check = "positive" if x>0 else "negative" if x<0 else "zero"
+print(num_check)
