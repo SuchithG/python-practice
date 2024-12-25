@@ -60,3 +60,17 @@ def palindrome(string):
 # Example usage
 print(palindrome("Suchith"))  # Output: False
 print(palindrome("madam")) 
+
+# Example 6:
+# Sum of Digits
+# Write a recursive function to calculate the sum of the digits of a given integer.
+def sum_of_digits(n):
+    # Base case: If the number is a single digit, return it
+    if n < 10:
+        return n
+    # Recursive step: Add the last digit to the sum of the remaining digits
+    return n % 10 + sum_of_digits(n // 10)
+
+# Example usage
+print(sum_of_digits(12345))  # Output: 15
+
