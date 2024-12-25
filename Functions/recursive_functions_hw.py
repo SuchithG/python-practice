@@ -30,6 +30,18 @@ def fib_of_numbers(n):
     else:
         return fib_of_numbers(n - 1) + fib_of_numbers(n - 2)
 
-print( fib_of_numbers(3))( fib_of_numbers(3))
+print( fib_of_numbers(3))
 
+# Example 4:
+# Write a recursive function to reverse a string
+def reverse_string(string):
+    # Base case: if the string is empty or has one character, it's already reversed
+    if len(string) <= 1:
+        return string
+    else:
+        # Recursive step: reverse the rest of the string and append the first character
+        return reverse_string(string[1:]) + string[0]
+
+# Example usage
+print(reverse_string("Suchith"))
 
