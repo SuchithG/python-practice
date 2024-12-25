@@ -45,3 +45,18 @@ def reverse_string(string):
 # Example usage
 print(reverse_string("Suchith"))
 
+# Example 5:
+# Write a recursive function to check if a given string is a palindrome (reads the same forward and backward).
+def palindrome(string):
+    # Base case: If the string has 0 or 1 character, it's a palindrome
+    if len(string) <= 1:
+        return True
+    # Check if the first and last characters are the same
+    if string[0] != string[-1]:
+        return False
+    # Recursive call on the middle part of the string
+    return palindrome(string[1:-1])
+
+# Example usage
+print(palindrome("Suchith"))  # Output: False
+print(palindrome("madam")) 
