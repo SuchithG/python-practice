@@ -29,6 +29,15 @@ def find_extremes(*args):
 print(find_extremes(4, 2, 9, 1))
 print(find_extremes(-5, 0, 5))
 
+# Example 5:
+# Concatenate Strings
+def concat_strings(*args, separator=" "):
+    # Convert all arguments to strings and join them with the separator
+    return separator.join(map(str, args))
+
+print(concat_strings("Hello", "world", separator=", "))
+print(concat_strings("Python", "is", "fun"))
+
 
 
 
