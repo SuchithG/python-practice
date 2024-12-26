@@ -19,6 +19,7 @@ def merge_dictionaries(**kwargs):
     return {**kwargs}
 
 print(merge_dictionaries(a=1, b=2, c=3))
+print(merge_dictionaries(x=10, y=20))
 
 
 
