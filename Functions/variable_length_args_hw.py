@@ -21,6 +21,14 @@ def merge_dictionaries(**kwargs):
 print(merge_dictionaries(a=1, b=2, c=3))
 print(merge_dictionaries(x=10, y=20))
 
+# Example 4: 
+# Maximum and Minimum
+def find_extremes(*args):
+    return (max(args), min(args))
+
+print(find_extremes(4, 2, 9, 1))
+print(find_extremes(-5, 0, 5))
+
 
 
 
