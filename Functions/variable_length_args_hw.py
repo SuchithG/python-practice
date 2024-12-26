@@ -13,5 +13,14 @@ def Sum_of_Squares(*args):
 
 print(f"{Sum_of_Squares(1, 2, 3):.2f}")
 
+# Example 3
+# Merge Dictionaries
+def merge_dictionaries(**kwargs):
+    return {**kwargs}
+
+print(merge_dictionaries(a=1, b=2, c=3))
+
+
+
 
 
