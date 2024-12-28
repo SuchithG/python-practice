@@ -38,6 +38,20 @@ def concat_strings(*args, separator=" "):
 print(concat_strings("Hello", "world", separator=", "))
 print(concat_strings("Python", "is", "fun"))
 
+# Example 6:
+# Filter and Sum : Write a function filter_and_sum(*args, threshold) that takes any number of numerical arguments and 
+# returns the sum of numbers greater than the threshold.
+def filter_and_sum(*args, threshold):
+    total = 0
+    for num in args:
+        if num >= threshold:
+           total += num
+    return total
+
+print(filter_and_sum(23,9,21,10, threshold=10))
+
+
+
 
 
 
