@@ -55,9 +55,14 @@ def filter_and_sum(*args, threshold):
 
 print(filter_and_sum(12, 20, 2, 30, threshold=10))
 
+# Example 7:
+# Count Keyword Arguments
+# Write a function count_kwargs(**kwargs) that returns the number of keyword arguments passed to it.
 
+def count_kwargs(**kwargs):
+    return len(kwargs)
 
-
+print(count_kwargs(a=12, b=20, c=2, d=3, threshold=10))
 
 
 
