@@ -50,6 +50,11 @@ def filter_and_sum(*args, threshold):
 
 print(filter_and_sum(23,9,21,10, threshold=10))
 
+def filter_and_sum(*args, threshold):
+    return sum(num for num in args if num >= threshold)
+
+print(filter_and_sum(12, 20, 2, 30, threshold=10))
+
 
 
 
