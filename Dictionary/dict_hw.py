@@ -36,6 +36,9 @@ print(karnataka_cities.keys())
 print(f"The List of cities are: {karnataka_cities.keys()}")
 
 # Using the values methods to print all city in the dictionary
+print(f"The List of dishes are: {karnataka_cities.values()}")
+
+# Using the values methods to print all city in the dictionary
 all_dishes = []
 for dishes in karnataka_cities.values():
     for dish in dishes:
