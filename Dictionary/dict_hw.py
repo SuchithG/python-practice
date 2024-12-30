@@ -19,12 +19,18 @@ karnataka_cities = {
 }
 
 # Adding a new city
-karnataka_cities["Maddhur"] = "Maddur Vada"
+karnataka_cities["Maddhur"] = "Maddur Vada" # add
 print(karnataka_cities)
 
 # Updating the dish for Bengaluru
-karnataka_cities["Bangalore"] = ["Masala Dosa", "Ragi Mudde", "Bisi Bele Bath", "Kesari Bath"]
+karnataka_cities["Bangalore"] = ["Masala Dosa", "Ragi Mudde", "Bisi Bele Bath", "Kesari Bath"] # update
 print(karnataka_cities)
+
+# Removing a city
+del karnataka_cities["Udupi"] # delete
+
+#Use the keys() method to print all city names in the dictionary.
+print(karnataka_cities.keys())
 
 # Using the keys methods to print all city in the dictionary
 print(f"The List of cities are: {karnataka_cities.keys()}")
