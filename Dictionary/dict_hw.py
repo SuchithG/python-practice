@@ -19,7 +19,7 @@ karnataka_cities = {
 }
 
 # Adding a new city
-karnataka_cities["Maddhur"] = ["Maddur Vada",]
+karnataka_cities["Maddhur"] = "Maddur Vada"
 print(karnataka_cities)
 
 # Updating the dish for Bengaluru
