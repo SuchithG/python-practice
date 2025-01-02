@@ -75,3 +75,6 @@ print(friends_details['Friend2']['favourite food'])
 
 
 
+
+
+
