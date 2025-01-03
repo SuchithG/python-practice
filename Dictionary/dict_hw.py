@@ -72,6 +72,13 @@ friends_details  = {
 print(friends_details['Friend2']['favourite food'])
 
 
+# print all the squares of the receding number less than i < n
+n = int(input())
+
+for i in range(0, n):
+    squares = i **2
+    print(squares)
+
 
 
 
