@@ -62,6 +62,7 @@ friends_details  = {
         'favourite food': 'upit'
     },
     "Friend2":{
+        
         'name': 'suchith2',
         'favorite subject': 'science',
         'favourite food': 'biryani'
